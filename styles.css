@@ -1,6 +1,7 @@
 body{
     background-color: hsl(212, 45%, 89%);
 }
+
 .container {
   display: flex;
   justify-content: center; /* Horizontal centering */
@@ -18,8 +19,9 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background: hsl(0, 0%, 100%);
 }
+
 .card-content{
-    padding: 2rem 2rem 1.5rem;
+    padding: 0.8rem 0.1rem 0.1rem;
 }
 
 .image-container{
@@ -29,5 +31,9 @@ body{
 }
 
 img{
-    width: 50%;
+    width: 90%;
+    border-radius: 10px;
 }
+
+
+
